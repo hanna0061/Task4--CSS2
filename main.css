@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar .logo img{
+    width: 60%;
+}
+
+.navbar .list ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .list ul a{
+    list-style: none;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    padding: 10px;
+}
+.portfolio{
+    background-color: rgb(226, 220, 213);
+    gap: 40px;
+}
+
+.line1{
+display: flex;
+gap: 40px;
+
+}
+
+.line2{
+    display: flex;
+    gap: 40px;
+
+}
+
+.portfolio-items img{
+        width: 110%;
+
+    }
+
